@@ -1,0 +1,31 @@
+.team a:hover,
+.team a:active,
+.team a:focus {
+    color: white;
+    background-color: var(--c2);
+    border: var(--c2);
+}
+
+.team .col-sm-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        width: 12rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    h5 {
+        color: var(--400-blue);
+        font-weight: bold;
+    }
+
+    p {
+        color: var(--400-grey);
+        font-weight: normal;
+    }
+}
