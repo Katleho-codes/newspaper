@@ -171,6 +171,69 @@
   font-weight: normal;
 }
 
+.blog-btn {
+  border: none;
+  color: white !important;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: var(--300-blue);
+}
+
+.blog-btn:active,
+.blog-btn:hover {
+  background-color: var(--400-blue);
+}
+
+.blog-btn:hover::after {
+  opacity: 0 !important;
+  transform: translateY(-15px);
+}
+
+.blog .main-title {
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: var(--400-blue);
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .blog .main-title {
+    font-size: 2rem;
+  }
+}
+.blog .col-sm-4 .card {
+  padding: 10px;
+  border: none;
+}
+.blog .col-sm-4 .img-wrapper {
+  border-radius: 2rem;
+}
+.blog .col-sm-4 .img-wrapper img {
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.blog .col-sm-4 .card-body {
+  padding: 1rem;
+}
+.blog .col-sm-4 .date > small {
+  color: var(--500-grey);
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+.blog .col-sm-4 h5 a {
+  color: var(--500-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+.blog .col-sm-4 p > small {
+  font-weight: 400;
+}
+
 *,
 *::before,
 *::after {
