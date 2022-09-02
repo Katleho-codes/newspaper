@@ -1,0 +1,36 @@
+.home {
+    h1 {
+        font-weight: 800;
+        font-size: 3rem;
+        color: var(--400-blue);
+        text-transform: capitalize;
+    }
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: var(--400-grey);
+    }
+
+    .home-btn {
+        background-color: var(--300-blue);
+    }
+
+    .home-btn:active,
+    .home-btn:hover,
+    .home-btn:focus {
+        transition: .2s ease-in-out;
+        background-color: var(--400-blue);
+        color: white;
+    }
+
+
+}
+
+@media (max-width:800px) {
+    .home {
+        h1 {
+            font-size: x-large;
+        }
+    }
+}
